@@ -1,0 +1,11 @@
+feature_set,model,MAE_eur,RMSE_eur,R2,RMSLE,median_abs_pct_err,direction_acc_pct
+stats_only,HistGradientBoosting,3669121.212,8900151.742,0.57,0.883,51.029,58.129
+stats_only,Linear Regression,4114629.122,10436102.154,0.409,0.929,55.145,57.56
+stats_only,Ridge,4116829.632,10442426.302,0.408,0.93,55.216,57.6
+stats_only,Random Forest,3879402.362,9743525.777,0.484,0.941,54.26,57.678
+stats_only,Baseline (median),5960535.16,14614540.887,-0.16,1.648,81.538,55.128
+with_current_value,HistGradientBoosting,1984911.241,5070100.674,0.86,0.473,24.867,74.662
+with_current_value,Random Forest,2028669.01,5220608.927,0.852,0.478,24.851,74.269
+with_current_value,Ridge,2008761.505,5186479.253,0.854,0.478,24.654,74.701
+with_current_value,Linear Regression,2008990.708,5187060.095,0.854,0.478,24.707,74.681
+with_current_value,Naive (no change),2373832.299,5578541.578,0.831,0.573,33.333,62.797

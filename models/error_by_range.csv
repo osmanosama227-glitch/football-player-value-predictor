@@ -1,0 +1,51 @@
+feature_set,model,range,n,MAE_M,median_abs_pct_err,median_bias_pct
+stats_only,Baseline (median),<1M,2269,0.68,140.0,140.0
+stats_only,Baseline (median),1-5M,2000,1.51,52.0,-52.0
+stats_only,Baseline (median),5-20M,1041,9.88,88.0,-88.0
+stats_only,Baseline (median),20-50M,394,30.03,96.0,-96.0
+stats_only,Baseline (median),50M+,98,80.59,98.29,-98.29
+stats_only,Linear Regression,<1M,2269,0.43,54.74,44.86
+stats_only,Linear Regression,1-5M,2000,1.48,46.83,-27.01
+stats_only,Linear Regression,5-20M,1041,6.7,60.5,-58.25
+stats_only,Linear Regression,20-50M,394,20.54,67.66,-66.7
+stats_only,Linear Regression,50M+,98,49.75,66.64,-64.51
+stats_only,Ridge,<1M,2269,0.43,54.86,45.05
+stats_only,Ridge,1-5M,2000,1.48,46.94,-27.39
+stats_only,Ridge,5-20M,1041,6.7,60.51,-58.31
+stats_only,Ridge,20-50M,394,20.55,67.73,-66.75
+stats_only,Ridge,50M+,98,49.77,66.73,-64.63
+stats_only,Random Forest,<1M,2269,0.39,53.37,45.71
+stats_only,Random Forest,1-5M,2000,1.57,52.0,-28.18
+stats_only,Random Forest,5-20M,1041,6.21,56.75,-51.34
+stats_only,Random Forest,20-50M,394,17.56,59.29,-57.74
+stats_only,Random Forest,50M+,98,52.05,66.25,-66.25
+stats_only,HistGradientBoosting,<1M,2269,0.36,47.91,39.29
+stats_only,HistGradientBoosting,1-5M,2000,1.53,49.18,-24.88
+stats_only,HistGradientBoosting,5-20M,1041,6.04,54.49,-49.63
+stats_only,HistGradientBoosting,20-50M,394,16.94,57.04,-56.51
+stats_only,HistGradientBoosting,50M+,98,45.51,60.1,-60.1
+with_current_value,Linear Regression,<1M,2269,0.18,23.82,7.11
+with_current_value,Linear Regression,1-5M,2000,0.9,25.06,-4.85
+with_current_value,Linear Regression,5-20M,1041,3.52,26.33,-9.85
+with_current_value,Linear Regression,20-50M,394,9.0,23.87,-15.85
+with_current_value,Linear Regression,50M+,98,22.75,25.22,-20.18
+with_current_value,Ridge,<1M,2269,0.18,23.83,7.05
+with_current_value,Ridge,1-5M,2000,0.9,25.03,-4.81
+with_current_value,Ridge,5-20M,1041,3.52,26.33,-9.82
+with_current_value,Ridge,20-50M,394,9.0,23.85,-15.82
+with_current_value,Ridge,50M+,98,22.75,25.21,-20.18
+with_current_value,Random Forest,<1M,2269,0.19,23.9,7.23
+with_current_value,Random Forest,1-5M,2000,0.94,25.77,-4.96
+with_current_value,Random Forest,5-20M,1041,3.63,26.09,-5.89
+with_current_value,Random Forest,20-50M,394,9.14,22.96,-9.73
+with_current_value,Random Forest,50M+,98,21.38,22.68,-13.59
+with_current_value,HistGradientBoosting,<1M,2269,0.18,23.58,6.84
+with_current_value,HistGradientBoosting,1-5M,2000,0.93,25.98,-3.85
+with_current_value,HistGradientBoosting,5-20M,1041,3.59,26.91,-5.83
+with_current_value,HistGradientBoosting,20-50M,394,8.92,22.32,-8.87
+with_current_value,HistGradientBoosting,50M+,98,20.36,22.03,-10.9
+with_current_value,Naive (no change),<1M,2269,0.25,33.33,25.0
+with_current_value,Naive (no change),1-5M,2000,1.21,33.33,14.29
+with_current_value,Naive (no change),5-20M,1041,4.48,33.33,0.0
+with_current_value,Naive (no change),20-50M,394,10.36,28.57,-10.71
+with_current_value,Naive (no change),50M+,98,20.71,20.71,-11.76
